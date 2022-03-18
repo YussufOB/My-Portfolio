@@ -3,40 +3,89 @@ html {
   padding: 0;
   font-family: "Poppins";
   box-sizing: border-box;
+  background: #fff;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 375px;
+  height: 100vh;
+  margin: 0 auto;
 }
 
 a {
-  font-family: "Poppins";
   text-decoration: none;
-  text-align: center;
-  font-weight: 100;
-  cursor: pointer;
 }
 
-nav {
-  justify-content: space-between;
-  background: #fff;
-  top: 0;
-  padding: 12px 2%;
+h1 {
+  font-family: "Poppins";
+  font-weight: bolder;
+  color: #172b4d;
+  line-height: 50px;
+  font-size: 40px;
+  padding: 0;
+  margin-top: 60px;
+}
+
+p {
+  columns: #344563;
+  font-family: "Poppins";
+  text-align: left;
+  font-size: 16px;
+  line-height: 23px;
+
+}
+
+.let-connect {
+  color: #7f8cff;
+  font-size: 18px;
+  margin-top: 0px;
 }
 
 .flex-nav {
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: space-between;
+  padding: 10px 7%;
 }
 
-.left a {
+.my-logo {
+  font-family: "Poppins";
   font-weight: bold;
+  text-align: center;
+  background: #fff;
   color: #6070ff;
-  width: 100%;
-  left: 50px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-.rigth a {
-  color: #344563;
-  right: 50px;
-  font-size: 14px;
-  margin-right: 20px;
+.union-icon {
+  width: 22px;
+}
+
+.union-icon img {
+  width: 100%;
+}
+
+.headline-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/header-shapes\ mobile.png);
+  height: 600px;
+  padding: 24px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0;
+  padding: 0;
+
+}
+
+.social img {
+  padding-right: 14px;
 }
