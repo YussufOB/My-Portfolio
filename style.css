@@ -1,12 +1,14 @@
 html {
   margin: 0;
   padding: 0;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   background: #fff;
 }
 
-*, *:before, *:after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -21,22 +23,20 @@ a {
 }
 
 h1 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: bolder;
   color: #172b4d;
   line-height: 50px;
   font-size: 40px;
-  padding: 0;
   margin-top: 60px;
 }
 
 p {
   columns: #344563;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   text-align: left;
   font-size: 16px;
   line-height: 23px;
-
 }
 
 .let-connect {
@@ -53,7 +53,7 @@ p {
 }
 
 .my-logo {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   text-align: center;
   background: #fff;
@@ -80,10 +80,6 @@ p {
 .social {
   display: flex;
   flex-direction: column;
-  align-items: left;
-  margin: 0;
-  padding: 0;
-
 }
 
 .social img {
