@@ -84,3 +84,12 @@ p {
 .social img {
   padding-right: 14px;
 }
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  list-style-type: none;
+  padding-inline-start: 1px;
+  margin-block-start: 0.01em;
+}
